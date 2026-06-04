@@ -16,7 +16,7 @@ public class UsuariosIniciales {
             if (repository.count() == 0) {
                 repository.saveAll(List.of(
                     new Usuario(null, "admin.conaf@conaf.cl", "admin123", "Administrador Central", "ADMIN", "ACTIVO"),
-                    new Usuario(null, "mich.escobar@duocuc.cl", "solomon2026", "Michael Escobar", "OPERADOR", "ACTIVO")
+                    new Usuario(null, "mig.escobar@duocuc.cl", "1234m", "Miguel Escobar", "OPERADOR", "ACTIVO")
                 ));
             }
         };
